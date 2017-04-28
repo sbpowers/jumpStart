@@ -1,9 +1,12 @@
 html {
-  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  font-family: "Monoton", cursive;
+  font-family: 'Monoton', cursive;
 }
 
 #menu {
@@ -35,6 +38,53 @@ header {
 
 }
 
-.navbar-default .navbar-nav > .active > a
+.navbar-default .navbar-nav > .active > a {
+  background-color: whitesmoke;
+}
 
-.navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+}
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+                1px -1px 0 #000,
+               -1px  1px 0 #000,
+                1px  1px 0 #000;
+}
+
+.jumbotron h1 {
+  font-family: Monoton, sans-serif;
+  font-size: 7.1rem;
+  color: white;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.col-xs.12 {
+  align-items: center;
+  justify-content: center;
+}
+
+h2#featured-project {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.image-container img {
+  opacity: 0.6;
+}
