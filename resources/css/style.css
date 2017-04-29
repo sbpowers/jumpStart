@@ -88,3 +88,28 @@ h2#featured-project {
 .image-container img {
   opacity: 0.6;
 }
+
+.featured-project .image-container {
+  height: 19rem;
+  margin-top: 20px;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.btn-primary {
+  width: 11.5rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0,51);
+  transition: .5s box-shadow;
+}
+
+
+.help {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  text-align: center;
+}
